@@ -1,0 +1,8 @@
+// 1. Import the initial variables
+@import '../../node_modules/bulma/sass/utilities/initial-variables';
+// 2. Override styles - https://bulma.io/documentation/customize/variables/
+@import './colors';
+// 3. Bulma enable Modularity, which allow you to import what you need
+// https://bulma.io/documentation/overview/modular/
+@import '../../node_modules/bulma/sass/utilities/all';
+@import '../../node_modules/bulma/sass/base/all';
