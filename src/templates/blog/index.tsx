@@ -15,13 +15,11 @@ const Template = ({ data }) => {
               title={ frontmatter.title }
               date={ frontmatter.date }
               subtitle={ frontmatter.subtitle }/>
-      <div className="section">
-        <div className="container is-fluid">
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={ { __html: html } }
-          />
-        </div>
+      <div className="container is-fluid">
+        <div
+          className="content"
+          dangerouslySetInnerHTML={ { __html: html } }
+        />
       </div>
     </Layout>
   );

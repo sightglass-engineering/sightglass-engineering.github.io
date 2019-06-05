@@ -8,7 +8,6 @@
 import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 
-import './layout.css';
 import { Navbar } from './navbar';
 
 const Layout = ({ children }) => (

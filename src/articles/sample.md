@@ -15,7 +15,7 @@ This is a starter kit for [Gatsby.js](https://www.gatsbyjs.org/) websites writte
 - Basic component structure
 - Styling with [emotion](https://emotion.sh/)
 
-## Geting started
+## Getting started
 
 Install this starter (assuming you have `gatsby-cli` installed) by running the following command:
 
